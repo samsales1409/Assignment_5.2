@@ -1,0 +1,17 @@
+/* header is green when screen size is more than 450px */
+header {
+
+      background-color: green;
+      color:white;
+      padding: 20px;
+}
+/* removing body spaces */
+body {
+padding:0px;
+margin:0px;
+}
+/* header is green when screen size is less or equal than 450px */
+@media only screen and (max-width: 450px) {
+    header {
+        background-color: blue;
+    }
